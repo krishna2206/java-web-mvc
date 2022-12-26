@@ -50,7 +50,7 @@ If you don't use maven, you can build the app and copy the war file to the tomca
 
 #### If you deployed with maven/build and deployed manually
 
-* Assume the tomcat server is running on port 8080, then you can access the app at http://localhost:8080/java-web
+* Assume the tomcat server is running on port 8080, then you can access the app at http://localhost:8080/java-web-mvc
 
 #### If you neither deployed with maven nor build and deployed manually
 
