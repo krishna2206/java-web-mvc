@@ -6,15 +6,21 @@
          version="4.0">
   <display-name>Java web MVC project</display-name>
 
-  <!-- Définition des servlets -->
+  <!-- Define servlets -->
   <servlet>
     <servlet-name>HelloController</servlet-name>
     <servlet-class>mg.krishna.controllers.HelloController</servlet-class>
   </servlet>
 
-  <!-- Mapping des servlets -->
+  <!-- Mapping servlets -->
   <servlet-mapping>
     <servlet-name>HelloController</servlet-name>
     <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <!-- For static assets serving -->
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/assets/*</url-pattern>
   </servlet-mapping>
 </web-app>
